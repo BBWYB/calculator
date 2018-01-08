@@ -8,10 +8,12 @@ public class CalculatorTest {
 
 	@Test
 	public void testSummeZweiPositive() {
-		
+		Calculator calculator = new Calculator();
+		int result = calculator.addition(2, 3);
+		assertEquals(5, result);
 	}
 	
-	@Test
+	/*@Test
 	public void testSummeZweiNegative(){
 		
 	}
@@ -19,6 +21,6 @@ public class CalculatorTest {
 	@Test
 	public void testSummeZweiNull(){
 		
-	}
+	}*/
 
 }
