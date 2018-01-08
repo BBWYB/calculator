@@ -13,14 +13,18 @@ public class CalculatorTest {
 		assertEquals(5, result);
 	}
 	
-	/*@Test
+	@Test
 	public void testSummeZweiNegative(){
-		
+		Calculator calculator = new Calculator();
+		int result = calculator.addition(-2, -3);
+		assertEquals(-5, result);
 	}
 	
 	@Test
 	public void testSummeZweiNull(){
-		
-	}*/
+		Calculator calculator = new Calculator();
+		int result = calculator.addition(0, 0);
+		assertEquals(0, result);
+	}
 
 }
